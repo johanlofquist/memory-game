@@ -7,7 +7,6 @@ import jordanImg from "./assets/jordan.jpg";
 import lebanonImg from "./assets/lebanon.jpg";
 import srilankaImg from "./assets/srilanka.jpg";
 import { Card } from "./Card";
-import { useEffect, useState } from "react";
 
 function App() {
   const flagArray = [
@@ -38,25 +37,6 @@ function App() {
     copyFlagArray.splice(randomIndex, 1);
   }
 
-  // const [chosenCardOne, setChosenCardOne] = useState("");
-  // const [chosenCardTwo, setChosenCardTwo] = useState("");
-
-  // const setChosenCards = (flag: string) => {
-  //   console.log(chosenCardOne);
-  //   console.log(chosenCardTwo);
-  //   if (chosenCardOne === "") {
-  //     setChosenCardOne(flag);
-  //   } else if (chosenCardTwo === "") {
-  //     setChosenCardTwo(flag);
-  //   }
-
-  //   if (
-  //     chosenCardOne === chosenCardTwo &&
-  //     (chosenCardOne !== "" || chosenCardTwo !== "")
-  //   ) {
-  //     console.log("Paired!");
-  //   }
-  // };
 
   return (
     <>

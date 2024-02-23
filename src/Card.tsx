@@ -2,13 +2,11 @@ import { useState } from "react";
 
 interface ICardProps {
   flag: "string";
-  //   setChosenCards: (flag: string) => void;
 }
 
 export const Card = (props: ICardProps) => {
   const handleClick = () => {
     setToggled(!toggled);
-    // props.setChosenCards(props.flag);
   };
 
   const [toggled, setToggled] = useState(true);
